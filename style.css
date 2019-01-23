@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.circle {
+    background: white;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    border-bottom: 100px solid darkgreen;
+    border-top: 100px solid orangered;
+    border-right: 100px solid brown;
+    border-left: 100px solid yellow;
+    margin: 0 auto;
+    transition: transform 10s cubic-bezier(0.25, 0.1, 0, 1.07), border 3s ease-in-out, background 5s ease;
+}
+
+.active {
+    background-color: black;
+    transform: rotate(3690deg);
+    border-bottom: 100px solid #53ff32;
+    border-top: 100px solid darkgreen;
+    border-right: 100px solid pink;
+    border-left: 100px solid purple;    
+    
+
+}
+
+button {
+    font-size: 15px;
+    display: block;
+    color: white;
+    background: brown;
+    width: 200px;
+    height: 50px;
+    border: none;
+    margin: 20px auto;
+}
